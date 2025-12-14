@@ -1,0 +1,38 @@
+@mixin form-component-style {
+    border-radius: 10px;
+ 
+    font-size: 100%;
+     z-index: 9999;
+}
+
+.chat-container {
+    width: 400px;
+    height: 500px; 
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid #d8d8d8;
+    padding: 2em;
+    border-radius: 10px;
+
+    .form-container {
+        display: flex;
+        justify-content: space-between;
+gap: 10px;
+        input {
+            width: 92%;
+            border-style: none;
+            border: 0.5px solid #393e4667;
+            @include form-component-style;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+         
+       
+    }
+ 
+
+}
+
