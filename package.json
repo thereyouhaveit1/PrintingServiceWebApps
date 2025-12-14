@@ -32,7 +32,7 @@
     "fabric": "^6.7.1",
     "framer-motion": "^12.23.21",
     "html2canvas": "^1.4.1",
-    "next": ">=15.5.7",
+    "next": ">=15.5.9",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.10",
     "react-color": "^2.19.3",
